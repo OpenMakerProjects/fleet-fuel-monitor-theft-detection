@@ -1,0 +1,21 @@
+{
+  "id": 735,
+  "title": "Fleet Fuel Monitor Theft Detection",
+  "repository_slug": "fleet-fuel-monitor-theft-detection",
+  "category": "Smart Vehicles",
+  "platform": "ESP32",
+  "platform_family": "arduino",
+  "difficulty": "Intermediate",
+  "estimated_hours": 32,
+  "connectivity": "CAN bus",
+  "components": [
+    "camera",
+    "OLED display",
+    "buzzer"
+  ],
+  "scope": "Build a smart vehicles prototype that uses camera, OLED display, buzzer to detect unexpected movement and report location. Include setup instructions, a circuit diagram, tested firmware, and sample output.",
+  "key_deliverable": "Theft Detection demonstration with repeatable test steps",
+  "mode": "threshold_alert",
+  "entrypoint": "firmware/fleet-fuel-monitor-theft-detection/fleet-fuel-monitor-theft-detection.ino",
+  "roadmap_source": "openmaker-2100-project-roadmap.xlsx"
+}
